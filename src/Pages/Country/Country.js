@@ -10,6 +10,7 @@ export const Country = () => {
 
   return (
     <div>
+      <h1>Top Countries in {continentName}</h1>
       {countries?.map((country) => (
         <DestinationCard
           destination={country}

@@ -14,6 +14,7 @@ export const Places = () => {
 
   return (
     <div>
+      <h1>Top Places in {countryName}</h1>
       {destinations?.map((destination) => (
         <DestinationCard
           destination={destination}
