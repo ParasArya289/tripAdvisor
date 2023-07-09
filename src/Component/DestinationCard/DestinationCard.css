@@ -1,0 +1,20 @@
+.destination {
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+}
+.destination > img {
+  height: 200px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+.destination > span {
+  position: absolute;
+  z-index: 1;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--primary-color);
+}
